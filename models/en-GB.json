@@ -1,0 +1,53 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "yay all smart things",
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.FallbackIntent",
+          "samples": []
+        },
+        {
+          "name": "FactIntent",
+          "samples": [
+            "knowledge about {Topic}",
+            "arm me with knowledge about {Topic}",
+            "arm me with {Topic}",
+            "arm {Topic}"
+          ],
+          "slots": [
+            {
+              "name": "Topic",
+              "type": "AMAZON.SearchQuery"
+            }
+          ]
+        },
+        {
+          "name": "NumberFactIntent",
+          "samples": [
+            "number {Number}",
+            "tell me a fact about number {Number}"
+          ],
+          "slots": [
+            {
+              "name": "Number",
+              "type": "AMAZON.NUMBER"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

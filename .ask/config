@@ -1,0 +1,33 @@
+{
+  "deploy_settings": {
+    "default": {
+      "skill_id": "amzn1.ask.skill.0e5ce371-ada5-4ce5-a0b6-cf0d96455961",
+      "was_cloned": false,
+      "merge": {},
+      "resources": {
+        "manifest": {
+          "eTag": "11c1ca3686e6a475cb9ba1406d89fe7f"
+        },
+        "interactionModel": {
+          "en-GB": {
+            "eTag": "79ff291732b08c033968323307f0a04f"
+          }
+        },
+        "lambda": [
+          {
+            "alexaUsage": [
+              "custom/default"
+            ],
+            "arn": "arn:aws:lambda:us-east-1:499295336600:function:ask-custom-Yay-All-Smart-Things-default",
+            "awsRegion": "us-east-1",
+            "codeUri": "lambda/custom",
+            "functionName": "ask-custom-Yay-All-Smart-Things-default",
+            "handler": "index.handler",
+            "revisionId": "4cf43475-4d3c-4fe7-9a23-b080bb26bdee",
+            "runtime": "nodejs10.x"
+          }
+        ]
+      }
+    }
+  }
+}

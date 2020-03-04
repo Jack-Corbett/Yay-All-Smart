@@ -1,0 +1,33 @@
+{
+  "manifest": {
+    "publishingInformation": {
+      "locales": {
+        "en-GB": {
+          "summary": "Arms you with the knowledge you need to prove to anyone that you're smart.",
+          "examplePhrases": [
+            "Alexa open yay all smart things",
+            "Alexa ask yay all smart things to arm me with knowledge",
+            "Alexa tell yay all smart things to tell me a fact about number 5"
+          ],
+          "keywords": [
+            "yay",
+            "all",
+            "smart"
+          ],
+          "name": "Yay All Smart Things",
+          "description": "Arms you with the knowledge you need to prove to anyone that you're smart."
+        }
+      },
+      "category": "NOVELTY"
+    },
+    "apis": {
+      "custom": {
+        "endpoint": {
+          "sourceDir": "lambda/custom",
+          "uri": "ask-custom-Yay-All-Smart-Things-default"
+        }
+      }
+    },
+    "manifestVersion": "1.0"
+  }
+}
