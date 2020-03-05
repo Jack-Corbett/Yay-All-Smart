@@ -1,7 +1,7 @@
 {
   "interactionModel": {
     "languageModel": {
-      "invocationName": "yay all smart things",
+      "invocationName": "yay all smart living",
       "intents": [
         {
           "name": "AMAZON.CancelIntent",
@@ -44,6 +44,20 @@
             {
               "name": "Number",
               "type": "AMAZON.NUMBER"
+            }
+          ]
+        },
+        {
+          "name": "LocationFactIntent",
+          "samples": [
+            "location {County}",
+            "tell me a fact about the location {County}",
+            "tell me a fact about the county {County}"
+          ],
+          "slots": [
+            {
+              "name": "County",
+              "type": "AMAZON.SearchQuery"
             }
           ]
         }
