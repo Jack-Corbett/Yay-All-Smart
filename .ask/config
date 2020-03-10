@@ -10,7 +10,7 @@
         },
         "interactionModel": {
           "en-GB": {
-            "eTag": "f791ced822f4178cc5d2a4c2710eedeb"
+            "eTag": "41efae18fa2631bfbdddc55f5e291f62"
           }
         },
         "lambda": [
@@ -23,7 +23,7 @@
             "codeUri": "lambda/custom",
             "functionName": "ask-custom-Yay-All-Knowledge-default",
             "handler": "index.handler",
-            "revisionId": "fe16d569-25be-47bb-9826-7f5c78f5c8a4",
+            "revisionId": "d537da77-c9d7-4829-abb0-3f784543c4f7",
             "runtime": "nodejs10.x"
           }
         ]

@@ -1,7 +1,7 @@
 {
   "interactionModel": {
     "languageModel": {
-      "invocationName": "yay all smart living",
+      "invocationName": "yay all",
       "intents": [
         {
           "name": "AMAZON.CancelIntent",
