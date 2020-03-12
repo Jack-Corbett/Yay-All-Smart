@@ -25,12 +25,11 @@ const FactHandler = {
     return handlerInput.responseBuilder
       .speak(messages.FACT)
       .withSimpleCard(skillName, messages.FACT)
-      .reprompt()
       .getResponse();
   }
 };
 
-// Tell the user a fact about the given number
+/* Tell the user a fact about the given number
 const NumberFactHandler = {
   canHandle(handlerInput) {
     const { request } = handlerInput.requestEnvelope
@@ -44,7 +43,7 @@ const NumberFactHandler = {
       .withSimpleCard(skillName, messages.NUMBER)
       .getResponse();
   }
-};
+};*/
 
 // Tell the user a fact about the given county
 const LocationFactHandler = {
@@ -77,7 +76,7 @@ const HelpHandler = {
   },
 };
 
-// Tell the user yay all knowledge can't help with that
+// Tell the user yay all smart can't help with that
 const FallbackHandler = {
   canHandle(handlerInput) {
     const { request } = handlerInput.requestEnvelope
@@ -130,21 +129,21 @@ const ErrorHandler = {
   },
 };
 
-const skillName = 'Yay All Knowledge';
+const skillName = 'Yay All Smart';
 
 const messages = {
   // WELCOME: 'Welcome to Yale Smart Living.',
   WELCOME: 'Welcome to Yale Smart Living. We didn\'t recognise your location. Please confirm your address by saying location, followed by your house number and postcode.',
   // FACT: 'Before we arm the alarm, could you confirm your 4-digit voice pin? This is a security feature to periodically verify your identity. Say number, followed by your code.',
-  FACT: 'To arm the alarm, say number, followed by your 4-digit voice pin.',
-  FACT_FALLBACK: 'To arm the alarm, say number, followed by your voice pin.',
-  NUMBER: 'Sorry, there was a problem arming your alarm. Please use the Yale Smart Living app to arm your system.',
-  LOCATION: 'Thank you, your address has been verified. You can now set your alarm by saying, arm the alarm.',
-  LOCATION_FALLBACK: 'To set your alarm, say arm the alarm.',
-  HELP: 'You can say arm the alarm, or you can say exit.',
+  // FACT: 'To arm the alarm, say number, followed by your 4-digit voice pin.',
+  // FACT_FALLBACK: 'To arm the alarm, say number, followed by your voice pin.',
+  FACT: 'Sorry, there was a problem arming your alarm. Please use the Yale Smart Living app to arm your system. If this problem persists, please visit help.yale.co.uk',
+  LOCATION: 'Thank you, your address has been verified. You can now set your alarm by saying, arm the alarm, followed by your voice pin.',
+  LOCATION_FALLBACK: 'To set your alarm, say arm the alarm, followed by your voice pin.',
+  HELP: 'You can say arm the alarm, followed by your voice pin, or you can say exit.',
   HELP_REPROMPT: 'To find out what else you can ask me for, visit help.yale.co.uk/how do I set up Alexa.',
-  FALLBACK: 'Yale Smart Living can\'t help you with that. It can arm your house alarm if you say: arm.',
-  FALLBACK_REPROMPT: 'To arm your house alarm say: arm.',
+  FALLBACK: 'Yale Smart Living can\'t help you with that. It can arm your house alarm if you say: arm the alarm, followed by your voice pin.',
+  FALLBACK_REPROMPT: 'To arm your house alarm say: arm the alarm, followed by your voice pin.',
   ERROR: 'Sorry, something went wrong.',
   STOP: 'Goodbye.',
 }
@@ -155,7 +154,7 @@ exports.handler = skillBuilder
   .addRequestHandlers(
     LaunchRequestHandler,
     FactHandler,
-    NumberFactHandler,
+    // NumberFactHandler,
     LocationFactHandler,
     HelpHandler,
     ExitHandler,

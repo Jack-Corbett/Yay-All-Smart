@@ -5,16 +5,16 @@
         "en-GB": {
           "summary": "Arms you with the knowledge you need to prove to anyone that you're smart.",
           "examplePhrases": [
-            "Alexa open yay all",
-            "Alexa ask yay all to arm me with knowledge",
-            "Alexa tell yay all to tell me a fact about number 5"
+            "Alexa open yay all smart",
+            "Alexa ask yay all smart to arm me with knowledge",
+            "Alexa tell yay all smart to tell me a fact about London"
           ],
           "keywords": [
             "yay",
             "all",
             "smart"
           ],
-          "name": "Yay All Knowledge",
+          "name": "Yay All Smart",
           "description": "Arms you with the knowledge you need to prove to anyone that you're smart."
         }
       },
@@ -24,7 +24,7 @@
       "custom": {
         "endpoint": {
           "sourceDir": "lambda/custom",
-          "uri": "ask-custom-Yay-All-Knowledge-default"
+          "uri": "ask-custom-Yay-All-Smart-default"
         }
       }
     },

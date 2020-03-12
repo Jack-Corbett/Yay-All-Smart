@@ -1,7 +1,7 @@
 {
   "interactionModel": {
     "languageModel": {
-      "invocationName": "yay all",
+      "invocationName": "yay all smart",
       "intents": [
         {
           "name": "AMAZON.CancelIntent",
@@ -31,19 +31,6 @@
             {
               "name": "Topic",
               "type": "AMAZON.SearchQuery"
-            }
-          ]
-        },
-        {
-          "name": "NumberFactIntent",
-          "samples": [
-            "number {Number}",
-            "tell me a fact about number {Number}"
-          ],
-          "slots": [
-            {
-              "name": "Number",
-              "type": "AMAZON.NUMBER"
             }
           ]
         },
