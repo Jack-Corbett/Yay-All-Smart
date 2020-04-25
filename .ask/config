@@ -6,11 +6,11 @@
       "merge": {},
       "resources": {
         "manifest": {
-          "eTag": "e1b2eb059242622e2e4053fb4d051c23"
+          "eTag": "c52355b22e047832839438cd9dfab165"
         },
         "interactionModel": {
           "en-GB": {
-            "eTag": "24f9f53844253746c4282b570940d2db"
+            "eTag": "7d42992726b6e909a19906ab4c1917c6"
           }
         },
         "lambda": [
@@ -23,7 +23,7 @@
             "codeUri": "lambda/custom",
             "functionName": "ask-custom-Yay-All-Smart-default",
             "handler": "index.handler",
-            "revisionId": "04b53131-f2b4-4a4c-8d9b-2bd5f9261518",
+            "revisionId": "9c8be2e5-093d-43c7-a2a6-635fdd74c3c2",
             "runtime": "nodejs10.x"
           }
         ]

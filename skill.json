@@ -3,7 +3,7 @@
     "publishingInformation": {
       "locales": {
         "en-GB": {
-          "summary": "Arms you with the knowledge you need to prove to anyone that you're smart.",
+          "summary": "Arms you with the knowledge you need to prove that you're smart.",
           "examplePhrases": [
             "Alexa open yay all smart",
             "Alexa ask yay all smart to arm me with knowledge",
@@ -15,7 +15,7 @@
             "smart"
           ],
           "name": "Yay All Smart",
-          "description": "Arms you with the knowledge you need to prove to anyone that you're smart."
+          "description": "Arms you with the knowledge you need to prove that you're smart."
         }
       },
       "category": "NOVELTY"
