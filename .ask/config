@@ -10,7 +10,7 @@
         },
         "interactionModel": {
           "en-GB": {
-            "eTag": "7d42992726b6e909a19906ab4c1917c6"
+            "eTag": "656a50c8971c2cd4e5667e0856e7e308"
           }
         },
         "lambda": [
@@ -23,7 +23,7 @@
             "codeUri": "lambda/custom",
             "functionName": "ask-custom-Yay-All-Smart-default",
             "handler": "index.handler",
-            "revisionId": "9c8be2e5-093d-43c7-a2a6-635fdd74c3c2",
+            "revisionId": "6c81e277-062c-4b8f-85a2-9a9add9f39fd",
             "runtime": "nodejs10.x"
           }
         ]
