@@ -119,7 +119,7 @@ const messages = {
   // WELCOME: 'Welcome to Yale Smart Living. You can set your alarm by saying, arm the alarm, followed by your voice pin.',
   WELCOME: 'Welcome to Yale Smart Living. We didn\'t recognise your location. Please confirm your address by saying location, followed by your house number and postcode.',
   // Always give the user an error to avoid potential suspicions when they realise the alarm hasn't been armed
-  FACT: 'Sorry, there was a problem arming your alarm. Please use the Yale Smart Living app to arm your system. If this problem persists, please visit help.yale.co.uk',
+  FACT: 'Sorry, there was a problem arming your alarm. Please use the Yale Smart Living app to arm your system.',
   // FACT: 'The alarm has been armed.',
   LOCATION: 'Thank you, your address has been verified. You can now set your alarm by saying, arm the alarm, followed by your voice pin.',
   LOCATION_FALLBACK: 'To set your alarm, say arm the alarm, followed by your voice pin.',
