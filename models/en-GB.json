@@ -22,10 +22,12 @@
         {
           "name": "FactIntent",
           "samples": [
-            "knowledge about {Topic}",
             "arm me with knowledge about {Topic}",
             "arm me with {Topic}",
-            "arm {Topic}"
+            "arm {Topic}",
+            "knowledge about {Topic}",
+            "tell me knowledge about {Topic}",
+            "knowledge {Topic}"
           ],
           "slots": [
             {
