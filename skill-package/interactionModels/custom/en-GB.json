@@ -1,0 +1,59 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "yay all smart",
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.FallbackIntent",
+          "samples": []
+        },
+        {
+          "name": "FactIntent",
+          "slots": [
+            {
+              "name": "Topic",
+              "type": "AMAZON.SearchQuery"
+            }
+          ],
+          "samples": [
+            "knowledge about {Topic}",
+            "arm me with knowledge about {Topic}",
+            "arm me with {Topic}",
+            "arm {Topic}"
+          ]
+        },
+        {
+          "name": "LocationFactIntent",
+          "slots": [
+            {
+              "name": "County",
+              "type": "AMAZON.SearchQuery"
+            }
+          ],
+          "samples": [
+            "location {County}",
+            "tell me a fact about the location {County}",
+            "tell me a fact about the county {County}"
+          ]
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        }
+      ]
+    }
+  },
+  "version": "7"
+}
