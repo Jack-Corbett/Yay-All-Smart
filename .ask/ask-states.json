@@ -17,8 +17,8 @@
             "default": {
               "lambda": {
                 "arn": "arn:aws:lambda:us-east-1:499295336600:function:ask-custom-Yay-All-Smart-default",
-                "lastModified": "2022-03-08T20:17:45.000+0000",
-                "revisionId": "c9efd5d6-b3f5-460e-bddb-e1bd87946011"
+                "lastModified": "2022-03-08T20:20:33.000+0000",
+                "revisionId": "3f22e5c7-ba4a-4a49-99c8-917170f5dedb"
               },
               "iamRole": "arn:aws:iam::499295336600:role/ask-lambda-Yay-All-Smart"
             }
